@@ -15,6 +15,10 @@
   - Crea un array di numeri interi 
   - fai la somma di tutti gli elementi che sono in posizione dispari
 
+- JSnackBonus:
+  - Crea due array che hanno un numero di elementi diversi.
+  - Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
   ## Svolgimento
 
   ### JSNACK1:
@@ -46,4 +50,21 @@
     - **SE** il numero occupa una posizione dispari all'interno dell'array, lo aggiungo alla variabile somma
 - Stampo in console la somma dei numeri di posizione dispari
 
+### JSNACKBONUS:
+
+- Genero un primo array con un tot. di numeri interi
+- Genero un secondo array con un tot. di numeri interi
+- **SE** la lunghezza del primo array è maggiore della lungheza del secondo array
+- Creo una variabile di elementi da aggiungere
+  - **SE** la variabile elementi da aggiunger è maggiore di 0
+    - Creo un **FOR**
+      - Genero randomicamente un numero tramite la funzione math.random
+      - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
+- **ALTRIMENTI SE** la lunghezza del secondo array è maggiore della lungheza del primo array
+- Creo una variabile di elementi da aggiungere
+  - **SE** la variabile elementi da aggiunger è maggiore di 0
+    - Creo un **FOR**
+      - Genero randomicamente un numero tramite la funzione math.random
+      - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
+- **ALTRIMENTI** alert
 
