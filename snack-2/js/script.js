@@ -11,10 +11,10 @@ const lista = [];
 for (let i = 0; i < nome.length; i++ ){
 
     //* Recupero in maniera casuale un nome dall'array nome
-    const randomNome = nome [Math.floor(Math.random () * nome.length) + 0];
+    const randomNome = nome [Math.floor(Math.random () * nome.length)];
     
     //* Recupero in maniera casuale un cognome dall'array cognome
-    const randomCognome = cognome[Math.floor(Math.random () * cognome.length) + 0];
+    const randomCognome = cognome[Math.floor(Math.random () * cognome.length)];
 
     //* Creo una const dove inserisco il nome e il cognome random
     const nomeCognome = randomNome + ' ' +  randomCognome;
