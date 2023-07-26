@@ -56,15 +56,13 @@
 - Genero un secondo array con un tot. di numeri interi
 - **SE** la lunghezza del primo array è maggiore della lungheza del secondo array
 - Creo una variabile di elementi da aggiungere
-  - **SE** la variabile elementi da aggiunger è maggiore di 0
-    - Creo un **FOR**
-      - Genero randomicamente un numero tramite la funzione math.random
-      - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
+  - Creo un **FOR**
+    - Genero randomicamente un numero tramite la funzione math.random
+    - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
 - **ALTRIMENTI SE** la lunghezza del secondo array è maggiore della lungheza del primo array
 - Creo una variabile di elementi da aggiungere
-  - **SE** la variabile elementi da aggiunger è maggiore di 0
-    - Creo un **FOR**
-      - Genero randomicamente un numero tramite la funzione math.random
-      - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
+  - Creo un **FOR**
+    - Genero randomicamente un numero tramite la funzione math.random
+    - Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
 - **ALTRIMENTI** alert
 

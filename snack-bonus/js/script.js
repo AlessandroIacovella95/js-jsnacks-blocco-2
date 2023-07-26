@@ -13,9 +13,6 @@ if (numbersOne.length > numbersTwo.length) {
     //* Creo una variabile di elementi da aggiungere
     let addElements = numbersOne.length - numbersTwo.length
 
-    //* **SE** la variabile elementi da aggiunger è maggiore di 0
-    if (addElements > 0) {
-
         //* Creo un **FOR**
         for (let i = 0; i < addElements; i++) {
 
@@ -25,15 +22,12 @@ if (numbersOne.length > numbersTwo.length) {
             //* Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
             numbersTwo.push(newElement);
         }
-    } 
+     
     //* **ALTRIMENTI SE** la lunghezza del secondo array è maggiore della lungheza del primo array
 } else if (numbersTwo.length > numbersOne.length) {
 
     //* Creo una variabile di elementi da aggiungere
     let addElements = numbersTwo.length - numbersOne.length
-
-    //* **SE** la variabile elementi da aggiunger è maggiore di 0
-    if (addElements > 0) {
 
         //* Creo un **FOR**
         for (let i = 0; i < addElements; i++) {
@@ -44,7 +38,6 @@ if (numbersOne.length > numbersTwo.length) {
             //* Aggiungo questo nuovo elemento all'array con lunghezza minore tramite **PUSH**
             numbersOne.push(newElement);
         }
-    }
 
     //* **ALTRIMENTI** alert
 } else {
