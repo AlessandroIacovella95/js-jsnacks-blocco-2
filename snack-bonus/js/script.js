@@ -44,6 +44,6 @@ if (numbersOne.length > numbersTwo.length) {
     alert('Gli array generati hanno lo stesso numero di elementi....')
 }
 
-console.log(numbersOne);
-console.log(numbersTwo);
+console.table(numbersOne);
+console.table(numbersTwo);
  
